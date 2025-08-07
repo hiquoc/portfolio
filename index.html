@@ -3,19 +3,143 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Game Portfolio</title>
+  <title>Đặng Quốc Huy - Game Developer Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 40px;
+      border-radius: 8px;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .header img {
+      border-radius: 8px;
+      width: 120px;
+      height: auto;
+    }
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #222;
+    }
+    .section-title {
+      margin-top: 40px;
+      font-size: 22px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 6px;
+    }
+    .contact, .skills, .languages {
+      margin-top: 20px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .project {
+      margin-bottom: 25px;
+    }
+    .project h3 {
+      margin-bottom: 5px;
+    }
+    .tag {
+      font-size: 13px;
+      color: #fff;
+      background: #dc3545;
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-left: 10px;
+    }
+    .tag.ongoing {
+      background: #007bff;
+    }
+  </style>
 </head>
 <body>
-  <h1>🃏 Card Game Projects</h1>
+  <div class="container">
+    <div class="header">
+      <img src="your_photo.jpg" alt="Đặng Quốc Huy">
+      <div>
+        <h1>ĐẶNG QUỐC HUY</h1>
+        <p><strong>Email:</strong> dangquochuy26122003@gmail.com</p>
+        <p><strong>Phone:</strong> 0864207050</p>
+        <p><strong>Location:</strong> Dĩ An, TP Hồ Chí Minh</p>
+      </div>
+    </div>
 
-  <h2>Card Game 1: Hearthstone-style</h2>
-  <p>This is a turn-based online 1v1 card game with targeting, drag-drop, and socket-ready structure.</p>
-  <iframe width="560" height="315" src="https://youtu.be/Vt1aSOg1XsU?si=WP-jbq89lSLv4l-_" frameborder="0" allowfullscreen></iframe>
+    <div class="section-title">PROFILE</div>
+    <p>
+      As a final-year Information Technology student, I've developed a strong passion for game development, with a focus on 2D games using Unity and C#. Through personal game projects, I’ve gained hands-on experience in implementing character movement, animation systems, and AI behavior.
+      <br><br>
+      I'm now looking for an internship opportunity where I can apply what I’ve learned, work alongside a professional team, and contribute meaningfully to game projects.
+    </p>
 
-  <h2>Card Game 2: Singleplayer with AI</h2>
-  <p>This project features AI logic, AOE effects, healing, buffs, and turn management.</p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+    <div class="section-title">EDUCATION</div>
+    <p><strong>2021–2026</strong><br>
+      Posts and Telecommunications Institute of Technology - PTIT
+    </p>
 
-  <h2>More Projects Coming Soon!</h2>
+    <div class="section-title">SKILLS</div>
+    <ul>
+      <li>Unity 2D game development (C#)</li>
+      <li>Gameplay mechanics (movement, combat, AI)</li>
+      <li>Physics & collision handling</li>
+      <li>Animation & state machine</li>
+      <li>Cross-platform deployment (PC, mobile)</li>
+      <li>Version control with Git</li>
+    </ul>
+
+    <div class="section-title">PROJECTS</div>
+
+    <div class="project">
+      <h3>Card Battle <span class="tag">Finished</span></h3>
+      <p>Strategy card game with minigames</p>
+      <ul>
+        <li>Fight against enemy AI with minigames that change the outcome of battle.</li>
+        <li>Tools: Unity, C#, DOTween.</li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/thiquoc/cardBattle.withMiniGame" target="_blank">github.com/thiquoc/cardBattle.withMiniGame</a></li>
+        <li><strong>Video:</strong> <a href="https://youtu.be/Vt1aSOg1XsU" target="_blank">YouTube Link</a></li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h4>Boom It - Minigame 1</h4>
+      <p>Classic Bomberman style game</p>
+      <ul>
+        <li>Destroy walls to find items and upgrades.</li>
+        <li>Tools: Unity, C#, DOTween.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h4>Throw It - Minigame 2</h4>
+      <p>Throwing flip-flop game with precision and timing mechanics.</p>
+    </div>
+
+    <div class="project">
+      <h3>Card Battle 2 <span class="tag ongoing">Ongoing</span></h3>
+      <p>Strategy Card Game with creative deck building</p>
+      <ul>
+        <li>Fight using a custom deck, heal, buff, and AOE.</li>
+        <li>Tools: Unity, C#, DOTween, MySQL, Spring Boot.</li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/thiquoc/card_game_withAPI" target="_blank">github.com/thiquoc/card_game_withAPI</a></li>
+      </ul>
+    </div>
+
+    <div class="section-title">LANGUAGES</div>
+    <ul>
+      <li>Vietnamese – Native</li>
+      <li>English – Intermediate</li>
+    </ul>
+  </div>
 </body>
 </html>
